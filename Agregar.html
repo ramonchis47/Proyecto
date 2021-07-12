@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Administracion-Agregar</title>
+    <meta charset="utf-8" />
+    <link type="text/css" rel="stylesheet" href="css/Agregar.css" />
+    <link rel="shortercut icon" href="css/img/registro.ico" />
+  </head>
+  <body>
+    <header>
+      <h1>Agregar juegos</h1>
+    </header>
+    <form action="Agregar_juego.php" method="POST">
+      <p><input type="text" id="nom" placeholder=" Titulo" name="titulo" /></p>
+      <p>
+        <input type="text" id="com" placeholder=" Compañia" name="compañia" />
+      </p>
+      <p><input type="text" id="pre" placeholder=" Precio" name="precio" /></p>
+      <p><input type="date" id="fec" name="fecha" /></p>
+      <p id="ps">
+        <input type="submit" id="sub" value="Guardar" name="guardar" />
+      </p>
+    </form>
+  </body>
+</html>

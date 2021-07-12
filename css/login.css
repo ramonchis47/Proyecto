@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+body{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #c7c7c7;
+    background-image: url(https://cdn.discordapp.com/attachments/691758985677635696/857360045674725386/178021.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+/*
+Encabezado
+*/
+header{
+    display: block;
+    text-align: center;
+    background-color: #393e46;
+    border:solid;
+    border-radius: 60px;
+    padding-bottom: 20px;
+}
+/*
+Etiquetas
+*/
+h1{
+    margin-top: 0.2em;
+    font-size: 70px;
+    font-family: Georgia;
+    text-decoration: underline;
+    color: #EEEEEE;
+}
+
+section{
+    display: block;
+    margin-left: 160px;
+    background-color: rgb(241, 228, 228);
+    width: 70%;
+    border: solid;
+    margin-top: 10px;
+}
+
+h2{
+    text-align: center;
+    padding: 5px;
+    font-size: 40px;
+}
+
+input{
+    width: fit-content;
+    border: solid 2px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(67, 67, 177);
+}
+/*
+Clases
+*/
+.usuario{
+    text-align: center;  
+    font-size: 25px;
+}
+/*
+Identificadores
+*/
+#nombre{
+    margin-top: 10px;
+}
+
+#contraseña{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#i1{
+    margin-left: 40px;
+}
+
+#boton{
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+#btningresar{
+        font-size: 18px;
+        padding: 8px;
+        width: 20%;
+        border: currentColor;
+        border-radius: 3px;
+        background-color: rgb(99, 102, 221);
+}
+
+#pregunta{
+    text-align: center;
+    padding-bottom: 5px;
+}
+/*
+Eventos
+*/
+a:hover{
+    color:black;
+}

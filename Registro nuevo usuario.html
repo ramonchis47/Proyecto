@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Registro de nuevo usuario</title>
+        <link rel="shortcut icon" href="registro.ico">
+        <link rel="stylesheet" href="Main_nuevo_usuario.css" type="text/css">
+        
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <header>
+            <h1>Chepe's Games</h1>
+        </header>
+        <div class="box">
+            <div class="titulo_secundario">
+                <h2>Registro Usuario Nuevo</h2>
+                <form action="escribir.php" method="POST">
+                    <input type="text" name="nombre" placeholder="Nombre" required autocomplete="off">
+                    <input type="text" name="apellido" placeholder="Apellido" required autocomplete="off">
+                    <input type="email" name="correo" placeholder="Correo Electronico" required autocomplete="off">
+                    <input type="password" name="contrasenna" placeholder="Contraseña" required autocomplete="off">
+                    <input type="submit" value="Aceptar" name="aceptar">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*
+Etiquetas
+*/
+body {
+  width: 80%;
+  margin: 0 auto;
+  background-image: url(https://cdn.discordapp.com/attachments/691758985677635696/857684641758445578/Videojuegos.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div {
+  background-color: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: Georgia;
+  background-color: #4a4a48;
+  color: whitesmoke;
+}
+
+header {
+  margin-bottom: 5px;
+}
+
+nav {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  padding: 8px;
+}
+
+ul,
+li {
+  display: inline;
+}
+
+li {
+  background-color: #a4c2a5;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+form {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+input {
+  padding: 11px;
+  background-color: rgb(88, 88, 204);
+  border: none;
+}
+
+section {
+  border-top: black 1px solid;
+  text-align: center;
+}
+
+table {
+  display: inline-block;
+  background-color: gray;
+}
+
+tr {
+  text-align: center;
+}
+
+td {
+  padding: 5px 20px 5px 20px;
+}
+/*
+Identificadores
+*/
+#main {
+  padding-bottom: 10px;
+}
+
+#frst {
+  border: solid 0.5px;
+  padding: 10px 60px 10px 60px;
+}
+
+#scnd {
+  border: solid 0.5px;
+  padding: 10px 60px 10px 60px;
+  margin-left: 2px;
+}
+
+#thrd {
+  border: solid 0.5px;
+  padding: 10px 60px 10px 60px;
+  margin-left: 3px;
+}
+
+#venta {
+  padding: 5px 50px 50px 50px;
+  border-bottom: black 1px solid;
+}
+
+#preventa {
+  padding: 5px 50px 50px 50px;
+  border-bottom: black 1px solid;
+}
+
+#usuario {
+  padding: 5px 50px 50px 50px;
+  border-bottom: black 1px solid;
+}
+/*
+Eventos
+*/
+a:hover {
+  text-decoration: underline;
+  color: whitesmoke;
+}
+
+a:active {
+  color: blue;
+  text-decoration: wavy;
+}
+/*
+eshos_28204303_prueba	eshos_28204303	(Su contraseña de vPanel)	sql302.eshost.com.ar
+*/

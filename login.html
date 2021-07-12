@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Página de inicio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/login.css" />
+    <link rel="shortcut icon" href="css/img/registro.ico" />
+    <script src="js/login.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Chepe's games</h1>
+    </header>
+    <section>
+      <h2>Inicio de sesion</h2>
+      <form action="login_registrar.php" method="POST">
+        <p class="usuario" id="nombre">
+          Usuario
+          <input
+            type="text"
+            placeholder=" Ingrese su usuario"
+            id="i1"
+            name="usuario"
+          />
+        </p>
+        <p class="usuario" id="contraseña">
+          Contraseña
+          <input
+            type="password"
+            placeholder=" Ingrese su contraseña"
+            name="contra"
+          />
+        </p>
+        <p id="boton">
+          <input
+            type="submit"
+            value="Ingresar"
+            name="ingresar"
+            id="btningresar"
+          />
+        </p>
+        <p id="pregunta">
+          <a href="Registro nuevo usuario.html" target="_blank">¿Nuevo usuario?</a>
+        </p>
+      </form>
+    </section>
+  </body>
+</html>
